@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+</head>
+<body>
+    <header class="main">
+        <h2 class="logo">IWB PTY LTD</h2>
+        <div class="nav-bar">
+            <a href="index.html">Home</a>
+            <a href="service.html">Services</a>
+            <a href="contacts.html">Contacts</a>
+        </div>
+
+        <div class="hamburger">
+            ≣
+        </div>
+    </header>
+
+    <div class="nav-mobile" id="idmobile" onclick="toggleMenu() ">
+            <a href="index.html">Home</a>
+            <a href="service.html">Services</a>
+            <a href="contacts.html">Contacts</a>
+    </div>
+  <script>
+        function toggleMenu(){
+            const menu = document.getElementById("idmobile");
+            menu.classList.toggle("show");
+        }
+     </script>
+       
+       <main class="grid">
+        <h2 class="login">Login</h2>
+       <form action="" class="form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Submit</button>
+
+       </form>    
+    </main>
+    <aside>
+        <h3 class="contacts">Contact Information</h3>
+        <p>Email: xtitech@gmail.com</p>
+        <p>Phone: +266 6287065</p>
+        <p>Address: 100 E-Waste St, Maseru, Lesotho</p>
+    </aside>
+   
+  
+
+    <footer>
+    &copy; 2024 IWB PTY LTD | All rights reserved.
+</footer>
+
+</body>
+</html>

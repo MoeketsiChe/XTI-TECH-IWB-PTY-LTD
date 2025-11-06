@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+</head>
+<body>
+    <header class="main">
+        <h2 class="logo">IWB PTY LTD</h2>
+        <div class="nav-bar">
+            <a href="index.html">Home</a>
+            <a href="service.html">Services</a>
+            <a href="contacts.html">Contacts</a>
+        </div>
+
+        <div class="hamburger">
+            ≣
+        </div>
+    </header>
+
+    <div class="nav-mobile" id="idmobile" onclick="toggleMenu() " >
+            <a href="index.html">Home</a>
+            <a href="service.html">Services</a>
+            <a href="contacts.html">Contacts</a>
+    </div>
+  <script>
+        function toggleMenu(){
+            const menu = document.getElementById("idmobile");
+            menu.classList.toggle("show");
+        }
+     </script>
+   
+     <nav class="sev">
+        <h2 class="service">Our Services</h2>
+        <p class="sevpara"> 
+            At IWB PTY LTD, we offer offer a reliable e-Waste management service.
+            We collect, recycle, and responsibly dispose of electronic waste, ensuring a cleaner environment for all. <br>
+            Our team also educates communities on the importance of e-Waste recycling and provides solutions for reducing electronic waste generation.
+        </p>
+     </nav>
+
+     <div class="about">
+        <h3 class="about">About Us</h3>
+        <p class="aboutpara">
+            IWB PTY LTD is a newly established company committed to addressing the challenges posed by electronic waste. <br>
+            We believe in creating a sustainable future through responsible e-Waste management practices. <br>
+            Through our services, we aim to reduce the environmental impact of electronic waste and promote a culture of recycling and reuse.
+        </p>
+     </div>
+
+    <footer>
+    &copy; 2024 IWB PTY LTD | All rights reserved.
+</footer>
+</body>
+</html>

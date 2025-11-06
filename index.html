@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+</head>
+<body>
+    <header class="main">
+        <h2 class="logo">IWB PTY LTD</h2>
+        <div class="nav-bar">
+            <a href="index.html">Home</a>
+            <a href="service.html">Services</a>
+            <a href="contacts.html">Contacts</a>
+        </div>
+
+        <div class="hamburger" onclick="toggleMenu() ">
+            ≣
+        </div>
+    </header>
+
+    <div class="nav-mobile" id="idmobile">
+            <a href="index.html">Home</a>
+            <a href="service.html">Services</a>
+            <a href="contacts.html">Contacts</a>
+    </div>
+     <script>
+        function toggleMenu(){
+            const menu = document.getElementById("idmobile");
+            menu.classList.toggle("show");
+        }
+     </script>
+
+    <section class="section">
+    <h1 class="home">
+        Welcome to IWB PTY LTD
+    </h1>
+<p class="Para">
+    Welcome to <span>IWB PTY LTD</span>,a company dedicated to tackling the growing problem 
+    of electronic waste(e-Waste). Our goal is to create a clear and safer environment by promoting 
+    proper recycling and reuse of electronic devices
+</p>
+    </section>
+<footer>
+    &copy; 2024 IWB PTY LTD | All rights reserved.
+</footer>
+
+   
+</body>
+</html>
